@@ -1,7 +1,7 @@
 # 🚗 Traffic Analytics Platform  
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Spark-3.5-orange" />
+  <img src="https://img.shields.io/badge/Spark-orange" />
   <img src="https://img.shields.io/badge/Delta-Lake-blue" />
   <img src="https://img.shields.io/badge/Docker-Containerized-blue" />
   <img src="https://img.shields.io/badge/PowerBI-Dashboard-yellow" />
