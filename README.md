@@ -1,38 +1,71 @@
-🚗 Traffic Analytics Platform
+# 🚗 Traffic Analytics Platform  
 
-📊 Overview
+<p align="center">
+  <img src="https://img.shields.io/badge/Spark-3.5-orange" />
+  <img src="https://img.shields.io/badge/Delta-Lake-blue" />
+  <img src="https://img.shields.io/badge/Docker-Containerized-blue" />
+  <img src="https://img.shields.io/badge/PowerBI-Dashboard-yellow" />
+</p>
 
-This project implements an end-to-end modern data platform for traffic analytics using a Lakehouse architecture.
+---
 
-It enables the computation of key traffic metrics such as congestion, speed, and traffic volume, and exposes them to BI tools like Power BI.
+## 🚀 Project Overview  
 
-![Spark](https://img.shields.io/badge/Spark-3.5-orange)
-![Delta](https://img.shields.io/badge/Delta-Lake-blue)
-![Docker](https://img.shields.io/badge/Docker-Containerized-blue)
-![PowerBI](https://img.shields.io/badge/PowerBI-Dashboard-yellow)
+This project implements a **production-ready data platform** for traffic analytics using a **modern Lakehouse architecture**.  
 
-⚙️ Tech Stack
-🧠 Apache Spark – distributed data processing
-🗄️ Delta Lake – ACID-compliant data lake
-🐝 Hive Metastore – metadata & table management
-🐳 Docker – containerized infrastructure
-📊 Power BI – dashboard & visualization
-🔗 Thrift Server – JDBC/ODBC connectivity
+It processes traffic data at scale and exposes **business-ready insights** through interactive dashboards.
 
-📈 Key Metrics
-🚗 Congestion Rate
-⚡ Average Speed
-🚘 Traffic Volume
-⏱️ Travel Time Delay
+👉 Designed to demonstrate:
+- Scalable data pipelines  
+- Distributed processing with Spark  
+- End-to-end Data Platform engineering  
+- BI integration via Thrift / ODBC  
 
-<img width="718" height="399" alt="image" src="https://github.com/user-attachments/assets/b73fa098-4cc3-4631-b293-488da6e4d55e" />
+---
 
-📊 Dashboard
+## 🏗️ Architecture  
 
-The Power BI dashboard provides insights into traffic conditions:
+## 📊 Key Metrics  
 
-Peak congestion during rush hours
-Speed vs congestion correlation
-Traffic volume distribution over time
+- 🚗 **Congestion Rate** — Traffic saturation indicator  
+- ⚡ **Average Speed** — Road performance metric  
+- 🚘 **Traffic Volume** — Number of vehicles  
+- ⏱️ **Travel Time Delay** — Efficiency vs free-flow  
 
-<img width="521" height="284" alt="image" src="https://github.com/user-attachments/assets/2ae13879-21c6-4724-a959-20c9ceb36f36" />
+---
+
+## 📈 Dashboard Insights  
+
+The dashboard enables:
+
+- Identification of **peak congestion hours**  
+- Analysis of **speed vs congestion correlation**  
+- Monitoring of **traffic trends over time**  
+- Detection of **high-density traffic zones**  
+
+---
+
+## 🖼️ Dashboard Preview  
+
+### 🔹 Architecture  
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b73fa098-4cc3-4631-b293-488da6e4d55e" width="750"/>
+</p>
+
+---
+
+### 🔹 Power BI Dashboard  
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2ae13879-21c6-4724-a959-20c9ceb36f36" width="750"/>
+</p>
+
+---
+
+## 🚀 Getting Started  
+
+### 1️⃣ Start the platform  
+
+```bash
+docker-compose up -d
