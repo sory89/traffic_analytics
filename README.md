@@ -1,10 +1,9 @@
 # 🚗 Traffic Analytics Platform  
 
-  <img src="https://img.shields.io/badge/Spark-orange" />
-  <img src="https://img.shields.io/badge/Delta-Lake-blue" />
-  <img src="https://img.shields.io/badge/Docker-Containerized-blue" />
-  <img src="https://img.shields.io/badge/PowerBI-Dashboard-yellow" />
-
+![Apache Spark](https://img.shields.io/badge/Apache%20Spark-FDEE21?style=for-the-badge&logo=apachespark&logoColor=black)
+![Delta Lake](https://img.shields.io/badge/Delta%20Lake-00ADD8?style=for-the-badge&logo=databricks&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ---
 
 ## 🚀 Project Overview  
